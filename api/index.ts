@@ -9,7 +9,7 @@ export const config = {
 
 const app = new Hono()
 
-app.get('/calculate/sum/:numX/:numY', (c) => {
+app.post('/calculate/sum/:numX/:numY', (c) => {
   const { numX, numY } = c.req.param()
   
   const x = parseInt(numX)
