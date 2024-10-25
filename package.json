@@ -1,0 +1,14 @@
+{
+  "name": "pweb-e09-restAPI",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "hono": "^4.6.6"
+  },
+  "devDependencies": {
+    "vercel": "^32.4.1"
+  }
+}
